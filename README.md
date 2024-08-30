@@ -1,6 +1,5 @@
 # Bitcoin24<img src="https://github.com/bitcoin-model/bitcoin_model/blob/main/bitcoin.png" width="80" height="40">
 Helping you drive Bitcoin adoption.
-</p>
 
 ## 21-year macro forecast with micro models for bitcoin strategies
 <table style="background-color: orange;">
@@ -28,8 +27,13 @@ Bitcoin24 does not model Bitcoin's volatility, as its volatility profile has evo
 - <a href="https://x.com/shirishjajodia">Shirish Jajodia</a>
 - <a href="https://x.com/_ChaitanyaJ">Chaitanya Jain (CJ)</a>
 
+<br>
+<br>
 
-"It might make sense just to get some in case it catches on. If enough people think the same way, that becomes a self-fulfilling prophecy." - Satoshi Nakamoto on 01/17/09 (BTC Price: $0)
+>"It might make sense just to get some in case it catches on. If enough people think the same way, that becomes a self-fulfilling prophecy." - Satoshi Nakamoto on 01/17/09 (BTC Price: $0)
+
+<br>
+<br>
 
 > [!TIP]
 > 1. <a href="https://github.com/user-attachments/assets/2710d05e-cfce-41a9-84ec-eb39d0afc6e0">Bitcoin24 - Intro</a>
