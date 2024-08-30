@@ -12,7 +12,7 @@ Helping you drive Bitcoin adoption.
   </tr>
 </table>
 
-Bitcoin24 is designed to simulate 21-year outcomes of various Bitcoin strategies tailored for individuals, corporations, institutions, and nation-states. Users can input their own assumptions or adjust the model to explore different scenarios. Saving the file will automatically update the scenario comparison charts in the micro models' bottom section. For the latest updates and developments on Bitcoin24, visit the project’s official GitHub.
+Bitcoin24 is designed to simulate 21-year outcomes of various Bitcoin strategies tailored for individuals, corporations, institutions, and nation-states. Users can input their own assumptions or adjust the model to explore different scenarios. Saving the file will automatically update the scenario comparison charts in the micro models' bottom section.
 
 Bitcoin24 does not model Bitcoin's volatility, as its volatility profile has evolved and will continue to do so in the future. This is a simplified model intended to show possible long-term outcomes of adopting a Bitcoin standard.
 <table>
