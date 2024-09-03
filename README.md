@@ -1,4 +1,4 @@
-# Bitcoin24<img src="https://github.com/bitcoin-model/bitcoin_model/blob/main/bitcoin.png" width="80" height="40">
+# Bitcoin24 <img src="https://github.com/bitcoin-model/bitcoin_model/blob/main/bitcoin.png" width="30" height="30">
 Helping you drive Bitcoin adoption.
 
 ## 21-year macro forecast with micro models for bitcoin strategies
