@@ -1,0 +1,83 @@
+{
+  "navigation": {
+    "intro": "紹介",
+    "btc": "ビットコイン",
+    "macro": "マクロ",
+    "individual": "個人",
+    "corporate": "企業",
+    "institution": "機関",
+    "nationState": "国家",
+    "unitedStates": "米国"
+  },
+  "intro": {
+    "title": "Bitcoin24",
+    "tagline": "ビットコインの採用を促進するお手伝い",
+    "description": "Bitcoin24は、個人、企業、機関、国家向けにカスタマイズされた様々なビットコイン戦略の21年間の結果をシミュレートするように設計されています。ユーザーは独自の仮定を入力するか、モデルを調整して異なるシナリオを探索できます。ファイルを保存すると、マイクロモデルの下部にあるシナリオ比較チャートが自動的に更新されます。",
+    "noVolatility": "Bitcoin24はビットコインのボラティリティをモデル化していません。そのボラティリティプロファイルは進化しており、今後も進化し続けるためです。これはビットコイン基準を採用した場合の可能な長期的な結果を示すことを目的とした簡略化されたモデルです。",
+    "contributors": "オリジナル貢献者",
+    "satoshiQuote": "それが流行する場合に備えて、いくらか手に入れるのは理にかなっているかもしれません。十分な数の人が同じように考えれば、それは自己実現的な予言になります。",
+    "satoshiQuoteAuthor": "Satoshi Nakamoto 2009/01/17 (BTCレート: $0)",
+    "disclaimer": "免責事項",
+    "disclaimerText": "ここで提供される情報は一般的な情報提供のみを目的としており、財務アドバイスとは見なされるべきではありません。本質的に予測不可能な将来の見通しに関する情報が含まれています。この情報に基づいて行動する前に、専門の財務アドバイザーやその他の信頼できる情報源からアドバイスを求めるべきです。この情報の著者および発行者は、この情報のユーザーが取った行動に対する責任を否認します。これは潜在的な結果の一つの見方に過ぎません。異なる意見を含む他の見解について知るべきです。"
+  },
+  "strategies": {
+    "normie": "従来型投資",
+    "btc10": "BTC 10%",
+    "btcMaxi": "BTC マキシ",
+    "doubleMaxi": "ダブルマキシ",
+    "tripleMaxi": "トリプルマキシ",
+    "normieDesc": "従来型60/40ポートフォリオ",
+    "btc10Desc": "10%ビットコイン配分",
+    "btcMaxiDesc": "80%ビットコイン配分",
+    "doubleMaxiDesc": "2倍レバレッジビットコインオールイン",
+    "tripleMaxiDesc": "3倍レバレッジビットコインオールイン"
+  },
+  "forms": {
+    "inflationRate": "インフレ率 (%)",
+    "stockReturn": "株式市場リターン (%)",
+    "bondReturn": "債券リターン (%)",
+    "realEstateReturn": "不動産リターン (%)",
+    "cashReturn": "現金リターン (%)",
+    "initialCapital": "初期資本",
+    "annualContribution": "年間拠出額",
+    "contributionGrowth": "拠出増加率 (%)",
+    "taxRate": "税率 (%)",
+    "submit": "更新",
+    "reset": "リセット",
+    "save": "保存",
+    "export": "エクスポート",
+    "calculate": "計算"
+  },
+  "charts": {
+    "portfolioValue": "ポートフォリオ価値",
+    "btcPrice": "ビットコイン価格",
+    "returns": "リターン",
+    "year": "年",
+    "value": "価値",
+    "comparison": "戦略比較",
+    "allocation": "資産配分"
+  },
+  "buttons": {
+    "exportCSV": "CSVエクスポート",
+    "exportJSON": "JSONエクスポート",
+    "downloadReport": "レポートダウンロード",
+    "saveScenario": "シナリオ保存",
+    "loadScenario": "シナリオ読込",
+    "resetDefaults": "デフォルトにリセット"
+  },
+  "messages": {
+    "calculating": "計算中...",
+    "loading": "読み込み中...",
+    "success": "成功！",
+    "error": "エラーが発生しました",
+    "saved": "保存しました",
+    "exported": "エクスポートしました"
+  },
+  "tooltips": {
+    "inflationRate": "予想年間インフレ率",
+    "btcAllocation": "ポートフォリオ内のビットコインの割合",
+    "rebalance": "目標比率を維持するために定期的に配分を調整",
+    "taxRate": "キャピタルゲイン税率"
+  }
+}
+
