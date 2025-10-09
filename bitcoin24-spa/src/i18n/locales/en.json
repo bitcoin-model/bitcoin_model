@@ -1,0 +1,83 @@
+{
+  "navigation": {
+    "intro": "Intro",
+    "btc": "BTC",
+    "macro": "Macro",
+    "individual": "Individual",
+    "corporate": "Corporate",
+    "institution": "Institution",
+    "nationState": "Nation State",
+    "unitedStates": "United States"
+  },
+  "intro": {
+    "title": "Bitcoin24",
+    "tagline": "Helping you drive Bitcoin adoption",
+    "description": "Bitcoin24 is designed to simulate 21-year outcomes of various Bitcoin strategies tailored for individuals, corporations, institutions, and nation-states. Users can input their own assumptions or adjust the model to explore different scenarios. Saving the file will automatically update the scenario comparison charts in the micro models' bottom section.",
+    "noVolatility": "Bitcoin24 does not model Bitcoin's volatility, as its volatility profile has evolved and will continue to do so in the future. This is a simplified model intended to show possible long-term outcomes of adopting a Bitcoin standard.",
+    "contributors": "Original Contributors",
+    "satoshiQuote": "It might make sense just to get some in case it catches on. If enough people think the same way, that becomes a self-fulfilling prophecy.",
+    "satoshiQuoteAuthor": "Satoshi Nakamoto on 01/17/09 (BTC Price: $0)",
+    "disclaimer": "Disclaimer",
+    "disclaimerText": "The information provided here is for general informational purposes only and should not be considered financial advice. It contains forward-looking information that is inherently unknowable. You should seek advice from a professional financial advisor and other trusted sources before acting on any of this information. The authors and publishers of this information disclaim responsibility for any action taken by users of this information. This is but one view of potential outcomes. You should inform yourself of other views, including those that might disagree."
+  },
+  "strategies": {
+    "normie": "Normie",
+    "btc10": "BTC 10%",
+    "btcMaxi": "BTC Maxi",
+    "doubleMaxi": "Double Maxi",
+    "tripleMaxi": "Triple Maxi",
+    "normieDesc": "Traditional 60/40 portfolio",
+    "btc10Desc": "10% Bitcoin allocation",
+    "btcMaxiDesc": "80% Bitcoin allocation",
+    "doubleMaxiDesc": "2x leverage all-in Bitcoin",
+    "tripleMaxiDesc": "3x leverage all-in Bitcoin"
+  },
+  "forms": {
+    "inflationRate": "Inflation Rate (%)",
+    "stockReturn": "Stock Market Return (%)",
+    "bondReturn": "Bond Return (%)",
+    "realEstateReturn": "Real Estate Return (%)",
+    "cashReturn": "Cash Return (%)",
+    "initialCapital": "Initial Capital",
+    "annualContribution": "Annual Contribution",
+    "contributionGrowth": "Contribution Growth Rate (%)",
+    "taxRate": "Tax Rate (%)",
+    "submit": "Update",
+    "reset": "Reset",
+    "save": "Save",
+    "export": "Export",
+    "calculate": "Calculate"
+  },
+  "charts": {
+    "portfolioValue": "Portfolio Value",
+    "btcPrice": "Bitcoin Price",
+    "returns": "Returns",
+    "year": "Year",
+    "value": "Value",
+    "comparison": "Strategy Comparison",
+    "allocation": "Asset Allocation"
+  },
+  "buttons": {
+    "exportCSV": "Export CSV",
+    "exportJSON": "Export JSON",
+    "downloadReport": "Download Report",
+    "saveScenario": "Save Scenario",
+    "loadScenario": "Load Scenario",
+    "resetDefaults": "Reset Defaults"
+  },
+  "messages": {
+    "calculating": "Calculating...",
+    "loading": "Loading...",
+    "success": "Success!",
+    "error": "Error occurred",
+    "saved": "Saved",
+    "exported": "Exported"
+  },
+  "tooltips": {
+    "inflationRate": "Expected annual inflation rate",
+    "btcAllocation": "Percentage of Bitcoin in portfolio",
+    "rebalance": "Periodically adjust allocations to maintain target ratios",
+    "taxRate": "Capital gains tax rate"
+  }
+}
+

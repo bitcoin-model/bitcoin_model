@@ -1,0 +1,83 @@
+{
+  "navigation": {
+    "intro": "介紹",
+    "btc": "比特幣",
+    "macro": "宏觀",
+    "individual": "個人",
+    "corporate": "企業",
+    "institution": "機構",
+    "nationState": "國家",
+    "unitedStates": "美國"
+  },
+  "intro": {
+    "title": "Bitcoin24",
+    "tagline": "幫助您推動比特幣採用",
+    "description": "Bitcoin24 旨在模擬針對個人、企業、機構和國家的各種比特幣策略的 21 年結果。使用者可以輸入自己的假設或調整模型以探索不同的場景。儲存檔案將自動更新微觀模型底部的場景比較圖表。",
+    "noVolatility": "Bitcoin24 不模擬比特幣的波動性，因為其波動性特徵已經演變並將在未來繼續演變。這是一個簡化模型，旨在展示採用比特幣標準的可能長期結果。",
+    "contributors": "原始貢獻者",
+    "satoshiQuote": "如果它能流行起來，那麼僅僅為了以防萬一而獲得一些可能是有意義的。如果有足夠多的人以同樣的方式思考，那就會成為自我實現的預言。",
+    "satoshiQuoteAuthor": "Satoshi Nakamoto 於 2009/01/17 (BTC 價格: $0)",
+    "disclaimer": "免責聲明",
+    "disclaimerText": "此處提供的資訊僅供一般參考，不應被視為財務建議。它包含本質上無法預知的前瞻性資訊。在採取任何行動之前，您應該向專業財務顧問和其他可信來源尋求建議。此資訊的作者和發布者對使用者採取的任何行動不承擔責任。這只是潛在結果的一種觀點。您應該了解其他觀點，包括可能不同意的觀點。"
+  },
+  "strategies": {
+    "normie": "傳統投資",
+    "btc10": "BTC 10%",
+    "btcMaxi": "BTC 最大化",
+    "doubleMaxi": "雙倍最大化",
+    "tripleMaxi": "三倍最大化",
+    "normieDesc": "傳統 60/40 投資組合",
+    "btc10Desc": "10% 比特幣配置",
+    "btcMaxiDesc": "80% 比特幣配置",
+    "doubleMaxiDesc": "2x 槓桿全押比特幣",
+    "tripleMaxiDesc": "3x 槓桿全押比特幣"
+  },
+  "forms": {
+    "inflationRate": "通膨率 (%)",
+    "stockReturn": "股市報酬率 (%)",
+    "bondReturn": "債券報酬率 (%)",
+    "realEstateReturn": "房地產報酬率 (%)",
+    "cashReturn": "現金報酬率 (%)",
+    "initialCapital": "初始資本",
+    "annualContribution": "年度投入",
+    "contributionGrowth": "投入增長率 (%)",
+    "taxRate": "稅率 (%)",
+    "submit": "更新",
+    "reset": "重設",
+    "save": "儲存",
+    "export": "匯出",
+    "calculate": "計算"
+  },
+  "charts": {
+    "portfolioValue": "投資組合價值",
+    "btcPrice": "比特幣價格",
+    "returns": "報酬率",
+    "year": "年份",
+    "value": "價值",
+    "comparison": "策略比較",
+    "allocation": "資產配置"
+  },
+  "buttons": {
+    "exportCSV": "匯出 CSV",
+    "exportJSON": "匯出 JSON",
+    "downloadReport": "下載報告",
+    "saveScenario": "儲存場景",
+    "loadScenario": "載入場景",
+    "resetDefaults": "恢復預設值"
+  },
+  "messages": {
+    "calculating": "計算中...",
+    "loading": "載入中...",
+    "success": "成功！",
+    "error": "發生錯誤",
+    "saved": "已儲存",
+    "exported": "已匯出"
+  },
+  "tooltips": {
+    "inflationRate": "預期年通膨率",
+    "btcAllocation": "投資組合中比特幣的百分比",
+    "rebalance": "定期調整資產配置以維持目標比例",
+    "taxRate": "資本利得稅率"
+  }
+}
+

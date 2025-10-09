@@ -1,0 +1,83 @@
+{
+  "navigation": {
+    "intro": "介绍",
+    "btc": "比特币",
+    "macro": "宏观",
+    "individual": "个人",
+    "corporate": "企业",
+    "institution": "机构",
+    "nationState": "国家",
+    "unitedStates": "美国"
+  },
+  "intro": {
+    "title": "Bitcoin24",
+    "tagline": "帮助您推动比特币采用",
+    "description": "Bitcoin24 旨在模拟针对个人、企业、机构和国家的各种比特币策略的 21 年结果。用户可以输入自己的假设或调整模型以探索不同的场景。保存文件将自动更新微观模型底部的场景比较图表。",
+    "noVolatility": "Bitcoin24 不模拟比特币的波动性，因为其波动性特征已经演变并将在未来继续演变。这是一个简化模型，旨在展示采用比特币标准的可能长期结果。",
+    "contributors": "原始贡献者",
+    "satoshiQuote": "如果它能流行起来，那么仅仅为了以防万一而获得一些可能是有意义的。如果有足够多的人以同样的方式思考，那就会成为自我实现的预言。",
+    "satoshiQuoteAuthor": "Satoshi Nakamoto 于 2009/01/17 (BTC 价格: $0)",
+    "disclaimer": "免责声明",
+    "disclaimerText": "此处提供的信息仅供一般参考，不应被视为财务建议。它包含本质上无法预知的前瞻性信息。在采取任何行动之前，您应该向专业财务顾问和其他可信来源寻求建议。此信息的作者和发布者对用户采取的任何行动不承担责任。这只是潜在结果的一种观点。您应该了解其他观点，包括可能不同意的观点。"
+  },
+  "strategies": {
+    "normie": "传统投资",
+    "btc10": "BTC 10%",
+    "btcMaxi": "BTC 最大化",
+    "doubleMaxi": "双倍最大化",
+    "tripleMaxi": "三倍最大化",
+    "normieDesc": "传统 60/40 投资组合",
+    "btc10Desc": "10% 比特币配置",
+    "btcMaxiDesc": "80% 比特币配置",
+    "doubleMaxiDesc": "2x 杠杆全押比特币",
+    "tripleMaxiDesc": "3x 杠杆全押比特币"
+  },
+  "forms": {
+    "inflationRate": "通胀率 (%)",
+    "stockReturn": "股市回报率 (%)",
+    "bondReturn": "债券回报率 (%)",
+    "realEstateReturn": "房地产回报率 (%)",
+    "cashReturn": "现金回报率 (%)",
+    "initialCapital": "初始资本",
+    "annualContribution": "年度投入",
+    "contributionGrowth": "投入增长率 (%)",
+    "taxRate": "税率 (%)",
+    "submit": "更新",
+    "reset": "重置",
+    "save": "保存",
+    "export": "导出",
+    "calculate": "计算"
+  },
+  "charts": {
+    "portfolioValue": "投资组合价值",
+    "btcPrice": "比特币价格",
+    "returns": "回报率",
+    "year": "年份",
+    "value": "价值",
+    "comparison": "策略比较",
+    "allocation": "资产配置"
+  },
+  "buttons": {
+    "exportCSV": "导出 CSV",
+    "exportJSON": "导出 JSON",
+    "downloadReport": "下载报告",
+    "saveScenario": "保存场景",
+    "loadScenario": "加载场景",
+    "resetDefaults": "恢复默认值"
+  },
+  "messages": {
+    "calculating": "计算中...",
+    "loading": "加载中...",
+    "success": "成功！",
+    "error": "发生错误",
+    "saved": "已保存",
+    "exported": "已导出"
+  },
+  "tooltips": {
+    "inflationRate": "预期年通胀率",
+    "btcAllocation": "投资组合中比特币的百分比",
+    "rebalance": "定期调整资产配置以维持目标比例",
+    "taxRate": "资本利得税率"
+  }
+}
+
