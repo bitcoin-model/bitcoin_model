@@ -22,7 +22,8 @@ export function LanguageSwitcher() {
     const segments = pathname.split('/');
     segments[1] = newLocale;
     const newPathname = segments.join('/');
-    router.push(newPathname);
+    // Type assertion needed for dynamic locale switching with typed routes
+    router.push(newPathname as any);
   };
 
   return (
