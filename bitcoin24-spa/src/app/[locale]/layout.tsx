@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google';
 import { locales } from '@/i18n/config';
 import { Navigation } from '@/components/layout/Navigation';
 import { Footer } from '@/components/layout/Footer';
+import '@/styles/globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
 
