@@ -4,6 +4,11 @@ const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',          // 添加這行
+  distDir: 'out',            // 添加這行
+  images: {
+    unoptimized: true,       // 添加這行
+  },
   reactStrictMode: true,
   images: {
     domains: ['github.com'],
