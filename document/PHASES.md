@@ -15,35 +15,51 @@ graph LR
 
 ---
 
-## 🎯 階段 1：需求分析與架構設計
-**時程**: 3-5 天
+## 🎯 階段 1：需求分析與架構設計 | Phase 1: Requirements Analysis & Architecture Design
 
-### 目標
+**時程 | Duration**: 3-5 天 | 3-5 Days
+
+### 目標 | Objectives
+
+**中文**:
 - 深入理解 Bitcoin24 Excel 模型邏輯
 - 設計資料模型與系統架構
 - 定義 8 個頁面的功能需求
 
-### 交付物
-- [x] 資料模型設計文件
-- [x] 系統架構圖
-- [x] UI/UX 流程圖
-- [x] 技術選型文件
+**English**:
+- Deeply understand Bitcoin24 Excel model logic
+- Design data models and system architecture
+- Define functional requirements for 8 pages
 
-### 關鍵決策
-- ✅ 採用 Next.js 14 App Router
-- ✅ 使用 Zustand 進行狀態管理
-- ✅ Recharts 作為圖表庫
-- ✅ next-intl 處理國際化
+### 交付物 | Deliverables
+- [x] 資料模型設計文件 | Data model design document
+- [x] 系統架構圖 | System architecture diagram
+- [x] UI/UX 流程圖 | UI/UX flow diagram
+- [x] 技術選型文件 | Technology selection document
+
+### 關鍵決策 | Key Decisions
+- ✅ 採用 Next.js 14 App Router | Adopt Next.js 14 App Router
+- ✅ 使用 Zustand 進行狀態管理 | Use Zustand for state management
+- ✅ Recharts 作為圖表庫 | Recharts as charting library
+- ✅ next-intl 處理國際化 | next-intl for internationalization
 
 ---
 
-## 🛠️ 階段 2：專案初始化
-**時程**: 2-3 天
+## 🛠️ 階段 2：專案初始化 | Phase 2: Project Initialization
 
-### 目標
+**時程 | Duration**: 2-3 天 | 2-3 Days
+
+### 目標 | Objectives
+
+**中文**:
 - 建立開發環境
 - 安裝並配置所有依賴
 - 設置專案結構
+
+**English**:
+- Set up development environment
+- Install and configure all dependencies
+- Establish project structure
 
 ### 任務清單
 ```bash
@@ -76,13 +92,21 @@ npm install -D eslint-config-next
 
 ---
 
-## 💾 階段 3：資料層開發
-**時程**: 10-14 天
+## 💾 階段 3：資料層開發 | Phase 3: Data Layer Development
 
-### 目標
+**時程 | Duration**: 10-14 天 | 10-14 Days
+
+### 目標 | Objectives
+
+**中文**:
 - 實現核心計算引擎
 - 建立狀態管理系統
 - 定義所有 TypeScript 型別
+
+**English**:
+- Implement core calculation engine
+- Build state management system
+- Define all TypeScript types
 
 ### 3.1 計算引擎模組
 
@@ -140,13 +164,21 @@ types/
 
 ---
 
-## 🎨 階段 4：UI 組件開發
-**時程**: 7-10 天
+## 🎨 階段 4：UI 組件開發 | Phase 4: UI Component Development
 
-### 目標
+**時程 | Duration**: 7-10 天 | 7-10 Days
+
+### 目標 | Objectives
+
+**中文**:
 - 建立可重用的 UI 組件庫
 - 實現響應式佈局
 - 開發圖表視覺化組件
+
+**English**:
+- Build reusable UI component library
+- Implement responsive layout
+- Develop chart visualization components
 
 ### 4.1 圖表組件
 
@@ -192,13 +224,21 @@ shared/
 
 ---
 
-## ⚙️ 階段 5：核心功能實現
-**時程**: 14-21 天
+## ⚙️ 階段 5：核心功能實現 | Phase 5: Core Features Implementation
 
-### 目標
+**時程 | Duration**: 14-21 天 | 14-21 Days
+
+### 目標 | Objectives
+
+**中文**:
 - 實現 8 個主要頁面
 - 整合計算引擎與 UI
 - 實現資料流轉
+
+**English**:
+- Implement 8 main pages
+- Integrate calculation engine with UI
+- Implement data flow
 
 ### 5.1 頁面開發順序
 
@@ -267,13 +307,21 @@ shared/
 
 ---
 
-## 🌍 階段 6：國際化（i18n）
-**時程**: 5-7 天
+## 🌍 階段 6：國際化（i18n）| Phase 6: Internationalization (i18n)
 
-### 目標
+**時程 | Duration**: 5-7 天 | 5-7 Days
+
+### 目標 | Objectives
+
+**中文**:
 - 實現完整的多語言支援
 - 支援 4 種語言
 - 處理數字、貨幣、日期格式化
+
+**English**:
+- Implement complete multilingual support
+- Support 4 languages
+- Handle number, currency, date formatting
 
 ### 6.1 語言支援
 
@@ -324,13 +372,21 @@ shared/
 
 ---
 
-## 🧪 階段 7：測試與優化
-**時程**: 7-10 天
+## 🧪 階段 7：測試與優化 | Phase 7: Testing & Optimization
 
-### 目標
+**時程 | Duration**: 7-10 天 | 7-10 Days
+
+### 目標 | Objectives
+
+**中文**:
 - 達到 80% 以上測試覆蓋率
 - 確保跨瀏覽器相容性
 - 優化效能
+
+**English**:
+- Achieve 80%+ test coverage
+- Ensure cross-browser compatibility
+- Optimize performance
 
 ### 7.1 單元測試
 
@@ -389,13 +445,21 @@ tests/e2e/
 
 ---
 
-## 🚀 階段 8：部署與 CI/CD
-**時程**: 2-3 天
+## 🚀 階段 8：部署與 CI/CD | Phase 8: Deployment & CI/CD
 
-### 目標
+**時程 | Duration**: 2-3 天 | 2-3 Days
+
+### 目標 | Objectives
+
+**中文**:
 - 部署到生產環境
 - 設置自動化流程
 - 配置監控
+
+**English**:
+- Deploy to production environment
+- Set up automation workflows
+- Configure monitoring
 
 ### 8.1 部署平台
 

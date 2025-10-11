@@ -16,30 +16,42 @@ Each **Phase** contains multiple **Stages**, where each Stage is a specific exec
 **負責人 | Owner**: 產品經理 + 技術主管 | Product Manager + Tech Lead  
 **時程 | Duration**: 1 天 | 1 Day
 
-### 任務
+### 任務 | Tasks
+
+**中文**:
 1. 開啟 `Bitcoin24 v1.0.xlsm`
 2. 識別所有工作表（sheets）
-3. 記錄每個工作表的用途：
-   - Intro
-   - BTC
-   - Macro
-   - Individual
-   - Corporate
-   - Institution
-   - Nation State
-   - United States
-4. 分析每個策略的計算邏輯：
-   - Normie
-   - BTC 10%
-   - BTC Maxi
-   - Double Maxi
-   - Triple Maxi
+3. 記錄每個工作表的用途
+4. 分析每個策略的計算邏輯
 
-### 交付物
-- [ ] Excel 模型結構文件
-- [ ] 計算公式清單
-- [ ] 輸入參數列表
-- [ ] 輸出結果列表
+**English**:
+1. Open `Bitcoin24 v1.0.xlsm`
+2. Identify all worksheets
+3. Document the purpose of each worksheet
+4. Analyze calculation logic for each strategy
+
+**工作表 | Worksheets**:
+- Intro
+- BTC
+- Macro
+- Individual
+- Corporate
+- Institution
+- Nation State
+- United States
+
+**策略 | Strategies**:
+- Normie
+- BTC 10%
+- BTC Maxi
+- Double Maxi
+- Triple Maxi
+
+### 交付物 | Deliverables
+- [ ] Excel 模型結構文件 | Excel model structure document
+- [ ] 計算公式清單 | Calculation formulas list
+- [ ] 輸入參數列表 | Input parameters list
+- [ ] 輸出結果列表 | Output results list
 
 ---
 
