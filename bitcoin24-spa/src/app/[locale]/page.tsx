@@ -57,7 +57,7 @@ export default function IntroPage() {
             const Icon = model.icon;
             const locale = typeof window !== 'undefined' ? window.location.pathname.split('/')[1] : 'zh-TW';
             return (
-              <Link key={model.href} href={`/${locale}${model.href}`}>
+              <Link key={model.href} href={`/${locale}${model.href}` as any}>
                 <Card className="h-full hover:border-bitcoin-500 hover:shadow-lg transition-all cursor-pointer group">
                   <CardHeader>
                     <div className="flex items-center gap-3 mb-2">

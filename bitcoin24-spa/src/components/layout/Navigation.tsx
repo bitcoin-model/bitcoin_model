@@ -27,7 +27,7 @@ export function Navigation() {
       <div className="container mx-auto px-4">
         <div className="flex items-center h-16 gap-8">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 font-bold text-lg">
+          <Link href={"/" as any} className="flex items-center gap-2 font-bold text-lg">
             <Bitcoin className="w-6 h-6 text-bitcoin-500" />
             <span className="hidden sm:inline">Bitcoin24</span>
           </Link>
@@ -41,7 +41,7 @@ export function Navigation() {
               return (
                 <Link
                   key={item.href}
-                  href={href}
+                  href={href as any}
                   className={cn(
                     'px-3 py-2 text-sm font-medium rounded-md transition-colors whitespace-nowrap',
                     isActive
