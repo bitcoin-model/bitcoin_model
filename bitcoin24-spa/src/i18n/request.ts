@@ -3,7 +3,7 @@ import { locales } from './config';
 
 export default getRequestConfig(async ({ requestLocale }) => {
   // Get the locale from the request
-  const locale = await requestLocale();
+  const locale = await requestLocale;
   
   // Validate that the incoming `locale` parameter is valid
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
