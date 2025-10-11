@@ -1,10 +1,12 @@
 import { useTranslations } from 'next-intl';
+import { setRequestLocale } from 'next-intl/server';
 import Link from 'next/link';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { StrategyComparisonTable } from '@/components/shared/StrategyComparisonTable';
 import { Bitcoin, TrendingUp, Users, Building2, Building, Globe, Flag, ArrowRight } from 'lucide-react';
 
-export default function IntroPage() {
+export default function IntroPage({ params: { locale } }: { params: { locale: string } }) {
+  setRequestLocale(locale);
   const t = useTranslations('intro');
 
   const models = [
@@ -55,7 +57,6 @@ export default function IntroPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {models.map((model) => {
             const Icon = model.icon;
-            const locale = typeof window !== 'undefined' ? window.location.pathname.split('/')[1] : 'zh-TW';
             return (
               <Link key={model.href} href={`/${locale}${model.href}` as any}>
                 <Card className="h-full hover:border-bitcoin-500 hover:shadow-lg transition-all cursor-pointer group">

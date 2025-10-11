@@ -1,7 +1,9 @@
+import { setRequestLocale } from 'next-intl/server';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { MacroAssumptionsForm } from '@/components/forms/MacroAssumptionsForm';
 
-export default function MacroPage() {
+export default function MacroPage({ params: { locale } }: { params: { locale: string } }) {
+  setRequestLocale(locale);
   return (
     <div className="container mx-auto px-4 py-8 max-w-6xl">
       <div className="mb-8">

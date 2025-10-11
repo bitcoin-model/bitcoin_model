@@ -1,5 +1,5 @@
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
+import { getMessages, setRequestLocale } from 'next-intl/server';
 import { Inter } from 'next/font/google';
 import { locales } from '@/i18n/config';
 import { Navigation } from '@/components/layout/Navigation';
@@ -18,6 +18,9 @@ export default async function LocaleLayout({
   children: React.ReactNode;
   params: { locale: string };
 }) {
+  // Enable static rendering
+  setRequestLocale(locale);
+  
   const messages = await getMessages();
 
   return (
