@@ -1,6 +1,6 @@
-# Bitcoin24 SPA 開發階段
+# Bitcoin24 SPA 開發階段 | Development Phases
 
-## 📋 階段總覽
+## 📋 階段總覽 | Phases Overview
 
 ```mermaid
 graph LR

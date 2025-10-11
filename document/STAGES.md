@@ -1,16 +1,20 @@
-# Bitcoin24 SPA 開發 Stages（詳細步驟）
+# Bitcoin24 SPA 開發 Stages（詳細步驟）| Development Stages (Detailed Steps)
 
-## 🗂️ Stage 架構總覽
+## 🗂️ Stage 架構總覽 | Stage Architecture Overview
 
+### 繁體中文
 每個 **Phase（階段）** 包含多個 **Stage（步驟）**，每個 Stage 都是一個可執行的具體任務。
+
+### English
+Each **Phase** contains multiple **Stages**, where each Stage is a specific executable task.
 
 ---
 
-# PHASE 1: 需求分析與架構設計
+# PHASE 1: 需求分析與架構設計 | Requirements Analysis & Architecture Design
 
-## Stage 1.1: Excel 模型分析
-**負責人**: 產品經理 + 技術主管  
-**時程**: 1 天
+## Stage 1.1: Excel 模型分析 | Excel Model Analysis
+**負責人 | Owner**: 產品經理 + 技術主管 | Product Manager + Tech Lead  
+**時程 | Duration**: 1 天 | 1 Day
 
 ### 任務
 1. 開啟 `Bitcoin24 v1.0.xlsm`

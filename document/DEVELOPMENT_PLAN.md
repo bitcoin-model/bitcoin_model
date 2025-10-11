@@ -1,42 +1,53 @@
-# Bitcoin24 Next.js SPA 開發計劃
+# Bitcoin24 Next.js SPA 開發計劃 | Development Plan
 
-## 專案概述
+## 專案概述 | Project Overview
+
+### 繁體中文
 將 Bitcoin24 Excel 模型轉換為現代化的 Next.js SPA，提供互動式 21 年比特幣投資策略模擬工具。
 
-## 技術棧
-- **前端框架**: Next.js 14 (App Router)
-- **語言**: TypeScript
-- **樣式**: Tailwind CSS + shadcn/ui
-- **圖表**: Recharts / Chart.js
-- **狀態管理**: Zustand / React Context
-- **i18n**: next-intl
-- **表單驗證**: Zod + React Hook Form
-- **測試**: Jest + React Testing Library + Playwright
-- **部署**: Vercel
+### English
+Transform the Bitcoin24 Excel model into a modern Next.js SPA, providing an interactive 21-year Bitcoin investment strategy simulation tool.
+
+## 技術棧 | Tech Stack
+
+- **前端框架 | Frontend Framework**: Next.js 14 (App Router)
+- **語言 | Language**: TypeScript
+- **樣式 | Styling**: Tailwind CSS + shadcn/ui
+- **圖表 | Charts**: Recharts / Chart.js
+- **狀態管理 | State Management**: Zustand / React Context
+- **i18n | Internationalization**: next-intl
+- **表單驗證 | Form Validation**: Zod + React Hook Form
+- **測試 | Testing**: Jest + React Testing Library + Playwright
+- **部署 | Deployment**: Vercel
 
 ---
 
-## 第一階段：需求分析與架構設計
+## 第一階段：需求分析與架構設計 | Phase 1: Requirements Analysis & Architecture Design
 
-### 1.1 核心功能分析
+### 1.1 核心功能分析 | Core Features Analysis
+
+#### 繁體中文
 基於 README.md 和 Excel 模型，系統需要包含：
 
-#### 8 個主要模型頁面
-1. **Intro** - 介紹頁面
-2. **BTC** - 比特幣基礎數據與假設
-3. **Macro** - 宏觀經濟假設
-4. **Individual** - 個人投資策略
-5. **Corporate** - 企業投資策略
-6. **Institution** - 機構投資策略
-7. **Nation State** - 國家級投資策略
-8. **United States** - 美國特定場景
+#### English
+Based on README.md and Excel model, the system needs to include:
 
-#### 5 種投資策略對比
-- Normie（傳統投資）
-- BTC 10%（10% 配置比特幣）
-- BTC Maxi（比特幣最大化）
-- Double Maxi（雙倍配置）
-- Triple Maxi（三倍配置）
+#### 8 個主要模型頁面 | 8 Main Model Pages
+1. **Intro** - 介紹頁面 | Introduction Page
+2. **BTC** - 比特幣基礎數據與假設 | Bitcoin Fundamentals & Assumptions
+3. **Macro** - 宏觀經濟假設 | Macroeconomic Assumptions
+4. **Individual** - 個人投資策略 | Individual Investment Strategy
+5. **Corporate** - 企業投資策略 | Corporate Investment Strategy
+6. **Institution** - 機構投資策略 | Institutional Investment Strategy
+7. **Nation State** - 國家級投資策略 | Nation-State Investment Strategy
+8. **United States** - 美國特定場景 | United States Specific Scenario
+
+#### 5 種投資策略對比 | 5 Investment Strategy Comparisons
+- **Normie** - 傳統投資 | Traditional Investment
+- **BTC 10%** - 10% 配置比特幣 | 10% Bitcoin Allocation
+- **BTC Maxi** - 比特幣最大化 | Bitcoin Maximalist
+- **Double Maxi** - 雙倍配置 | Double Maximalist (2x Leverage)
+- **Triple Maxi** - 三倍配置 | Triple Maximalist (3x Leverage)
 
 ### 1.2 資料模型設計
 
