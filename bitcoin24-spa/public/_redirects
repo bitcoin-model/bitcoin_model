@@ -1,0 +1,9 @@
+# Cloudflare Pages 重定向規則
+# 將根路徑重定向到繁體中文頁面
+
+/  /zh-TW  302
+/index.html  /zh-TW  302
+
+# 處理不存在的語言代碼
+/:locale/*  /zh-TW/:splat  302
+
