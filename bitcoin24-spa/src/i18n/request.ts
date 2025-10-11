@@ -1,12 +1,12 @@
 import { getRequestConfig } from 'next-intl/server';
-import { getRequestLocale } from 'next-intl/server';
 import { locales } from './config';
 
-export default getRequestConfig(async () => {
+export default getRequestConfig(async ({ requestLocale }) => {
   // Get the locale from the request
-  const locale = await getRequestLocale();
+  const locale = await requestLocale();
   
   // Validate that the incoming `locale` parameter is valid
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   if (!locale || !locales.includes(locale as any)) {
     return {
       messages: (await import(`./locales/zh-TW.json`)).default,
