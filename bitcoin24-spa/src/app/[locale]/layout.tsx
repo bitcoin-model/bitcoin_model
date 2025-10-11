@@ -5,7 +5,7 @@ import { Inter } from 'next/font/google';
 import { locales } from '@/i18n/config';
 import { Navigation } from '@/components/layout/Navigation';
 import { Footer } from '@/components/layout/Footer';
-import '@/styles/globals.css';
+import '../../styles/globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -52,10 +52,14 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} suppressHydrationWarning>
-      <body className={inter.className}>
+    <html lang={locale} suppressHydrationWarning className="h-full">
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <meta name="theme-color" content="#F7931A" />
+      </head>
+      <body className={`${inter.className} min-h-full`} suppressHydrationWarning>
         <NextIntlClientProvider messages={messages}>
-          <div className="flex flex-col min-h-screen">
+          <div className="flex flex-col min-h-screen bg-background text-foreground">
             <Navigation />
             <main className="flex-1">{children}</main>
             <Footer />

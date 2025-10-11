@@ -20,6 +20,9 @@ const nextConfig = {
     typedRoutes: true,
   },
   
+  // Ensure CSS is properly handled
+  transpilePackages: ['next-intl'],
+  
   // Performance optimization
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',
