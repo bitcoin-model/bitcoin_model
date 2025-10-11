@@ -4,23 +4,28 @@ const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',          // 添加這行
-  distDir: 'out',            // 添加這行
-  images: {
-    unoptimized: true,       // 添加這行
-  },
+  // CRITICAL: Static export for Cloudflare Pages
+  output: 'export',
+  distDir: 'out',
+  
   reactStrictMode: true,
+  
+  // CRITICAL: Disable image optimization for static export
   images: {
+    unoptimized: true,
     domains: ['github.com'],
   },
+  
   experimental: {
     typedRoutes: true,
   },
-  // 效能優化
+  
+  // Performance optimization
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',
   },
-  // 優化 bundle
+  
+  // Bundle optimization
   webpack: (config, { isServer }) => {
     if (!isServer) {
       config.resolve.fallback = {
