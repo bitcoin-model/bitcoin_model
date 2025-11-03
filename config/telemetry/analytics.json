@@ -1,0 +1,29 @@
+{
+  "frontend": {
+    "rumProvider": "vercel-analytics",
+    "errorTracking": "sentry",
+    "webVitals": {
+      "metrics": ["LCP", "FID", "CLS", "INP"],
+      "destination": "vercel-analytics"
+    },
+    "sampleRate": {
+      "webVitals": 1,
+      "sessionReplay": 0.1
+    }
+  },
+  "backend": {
+    "tracing": {
+      "exporter": "opentelemetry-otlp",
+      "serviceName": "bitcoin24-api",
+      "endpoint": "${OTEL_EXPORTER_OTLP_ENDPOINT:-https://telemetry.example.com}" 
+    },
+    "metrics": {
+      "exporter": "prometheus",
+      "dashboards": ["grafana/btc-model-latency", "grafana/btc-model-throughput"],
+      "tracked": [
+        { "name": "api_latency_p95", "threshold": 400, "unit": "milliseconds" },
+        { "name": "btc_price_job_success", "threshold": 0.99, "unit": "ratio" }
+      ]
+    }
+  }
+}

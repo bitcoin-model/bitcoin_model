@@ -1,0 +1,23 @@
+{
+  "individual": [
+    { "id": "normie", "label": "Normie", "netWorth": 6.50481644650268, "cagr": 0.10834493777551524, "btc": 0.0 },
+    { "id": "btc_10", "label": "BTC 10%", "netWorth": 19.160762026075282, "cagr": 0.16685458955265897, "btc": 0.9880531961761272 },
+    { "id": "btc_maxi", "label": "BTC Maxi", "netWorth": 107.75238108308346, "cagr": 0.26686896104470104, "btc": 7.9044255694090175 },
+    { "id": "double_maxi", "label": "Double Maxi", "netWorth": 158.48442332368464, "cagr": 0.29035951777444047, "btc": 11.803608884838194 },
+    { "id": "triple_maxi", "label": "Triple Maxi", "netWorth": 213.2258302125592, "cagr": 0.30871957285060136, "btc": 15.914910077368692 }
+  ],
+  "corporate": [
+    { "id": "normie", "label": "Normie", "netWorth": 1142.2574001555054, "cagr": 0.11987556407034994, "btc": 0.0 },
+    { "id": "btc_10", "label": "BTC 10%", "netWorth": 2519.9582578507757, "cagr": 0.16269331395918307, "btc": 569.3504922790038 },
+    { "id": "btc_maxi", "label": "BTC Maxi", "netWorth": 8045.283476226096, "cagr": 0.22745189073419914, "btc": 4540.276079447935 },
+    { "id": "double_maxi", "label": "Double Maxi", "netWorth": 17375.945497891233, "cagr": 0.27290897913129153, "btc": 25643.337124748647 },
+    { "id": "triple_maxi", "label": "Triple Maxi", "netWorth": 27873.79528234315, "cagr": 0.30188027844952803, "btc": 39475.63305839926 }
+  ],
+  "institution": [
+    { "id": "normie", "label": "Normie", "netWorth": 4.446585016541101, "cagr": 0.07363932298741349, "btc": 0.0 },
+    { "id": "btc_10", "label": "BTC 10%", "netWorth": 24.61664363909195, "cagr": 0.16479364449116396, "btc": 1.5384615384615385 },
+    { "id": "btc_maxi", "label": "BTC Maxi", "netWorth": 105.29687812929535, "cagr": 0.2482612814334204, "btc": 7.692307692307694 },
+    { "id": "double_maxi", "label": "Double Maxi", "netWorth": 206.14717124204964, "cagr": 0.28883975252734717, "btc": 15.384615384615389 },
+    { "id": "triple_maxi", "label": "Triple Maxi", "netWorth": 299.74077556681925, "cagr": 0.3120194626471726, "btc": 24.376666656998218 }
+  ]
+}

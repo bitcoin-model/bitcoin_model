@@ -1,0 +1,10 @@
+{
+  "extends": "../../../tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@bitcoin24/models/*": ["../../models/src/*"],
+      "@bitcoin24/ui/*": ["../../ui/src/*"]
+    }
+  }
+}

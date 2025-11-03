@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bitcoin24 Telemetry Smoke Page</title>
+    <meta name="description" content="Smoke page used for CI accessibility and performance audits." />
+    <style>
+      :root {
+        color-scheme: dark light;
+      }
+      body {
+        font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: #0b0e11;
+        color: #f8fafc;
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        padding: 2rem;
+      }
+      main {
+        max-width: 640px;
+        background: rgba(25, 32, 40, 0.85);
+        border-radius: 16px;
+        border: 1px solid rgba(148, 163, 184, 0.2);
+        padding: 2.5rem;
+        box-shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
+      }
+      h1 {
+        font-family: "Space Grotesk", "Inter", sans-serif;
+        font-size: clamp(2rem, 3vw, 3rem);
+        margin-top: 0;
+        color: #f7931a;
+      }
+      p {
+        line-height: 1.6;
+      }
+      dl {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 0.5rem 1rem;
+        margin-top: 1.5rem;
+      }
+      dt {
+        font-weight: 600;
+        color: #2dd4bf;
+      }
+      a {
+        color: #2dd4bf;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1 id="title">Bitcoin24 CI Health Check</h1>
+      <p>
+        This page represents the minimum accessible experience that our automated checks monitor.
+        Every deployment must maintain excellent performance and inclusive design.
+      </p>
+      <dl>
+        <dt>Largest Contentful Paint budget</dt>
+        <dd><span aria-label="LCP threshold">2,000 milliseconds</span></dd>
+        <dt>Accessibility target</dt>
+        <dd>Score ≥ 95 with zero critical Axe violations.</dd>
+        <dt>API latency SLO</dt>
+        <dd>P95 response time under 400 milliseconds.</dd>
+      </dl>
+      <p>
+        Learn more in the <a href="../docs/performance_accessibility_standards.md">Performance and Accessibility Standards</a> guide.
+      </p>
+    </main>
+  </body>
+</html>

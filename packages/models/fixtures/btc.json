@@ -1,0 +1,132 @@
+{
+  "assumptions": {
+    "base": {
+      "arrStart": 0.5,
+      "arrReduction": 0.025,
+      "steadyStateArr": 0.2,
+      "startPriceK": 65.0
+    },
+    "bear": {
+      "arrStart": 0.25,
+      "arrReduction": 0.005,
+      "steadyStateArr": 0.18,
+      "startPriceK": 65.0
+    },
+    "bull": {
+      "arrStart": 0.75,
+      "arrReduction": 0.05,
+      "steadyStateArr": 0.25,
+      "startPriceK": 65.0
+    }
+  },
+  "summary": {
+    "base": {
+      "price2045Million": 13.399566130733223,
+      "marketCap2045Trillion": 280.96210262921426,
+      "twentyOneYearArr": 0.28883975252734717,
+      "assetShare": 0.07049489533594591
+    },
+    "bear": {
+      "price2045Million": 3.249522916172002,
+      "marketCap2045Trillion": 68.13599650629455,
+      "twentyOneYearArr": 0.20475932780290518,
+      "assetShare": 0.018060080205793895
+    },
+    "bull": {
+      "price2045Million": 49.22780964683621,
+      "marketCap2045Trillion": 1032.2087126748615,
+      "twentyOneYearArr": 0.3712271019401119,
+      "assetShare": 0.2179120560110045
+    }
+  },
+  "supplyMillions": [
+    {
+      "year": 2024,
+      "supply": 19.802
+    },
+    {
+      "year": 2025,
+      "supply": 19.966
+    },
+    {
+      "year": 2026,
+      "supply": 20.13
+    },
+    {
+      "year": 2027,
+      "supply": 20.295
+    },
+    {
+      "year": 2028,
+      "supply": 20.401
+    },
+    {
+      "year": 2029,
+      "supply": 20.484
+    },
+    {
+      "year": 2030,
+      "supply": 20.566
+    },
+    {
+      "year": 2031,
+      "supply": 20.648
+    },
+    {
+      "year": 2032,
+      "supply": 20.701
+    },
+    {
+      "year": 2033,
+      "supply": 20.742
+    },
+    {
+      "year": 2034,
+      "supply": 20.783
+    },
+    {
+      "year": 2035,
+      "supply": 20.824
+    },
+    {
+      "year": 2036,
+      "supply": 20.85
+    },
+    {
+      "year": 2037,
+      "supply": 20.871
+    },
+    {
+      "year": 2038,
+      "supply": 20.892
+    },
+    {
+      "year": 2039,
+      "supply": 20.912
+    },
+    {
+      "year": 2040,
+      "supply": 20.925
+    },
+    {
+      "year": 2041,
+      "supply": 20.935
+    },
+    {
+      "year": 2042,
+      "supply": 20.946
+    },
+    {
+      "year": 2043,
+      "supply": 20.956
+    },
+    {
+      "year": 2044,
+      "supply": 20.963
+    },
+    {
+      "year": 2045,
+      "supply": 20.968
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "bitcoin24-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@8.15.4",
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm --filter web build",
+    "lint": "pnpm --filter web lint",
+    "storybook": "pnpm --filter @bitcoin24/ui storybook",
+    "storybook:build": "pnpm --filter @bitcoin24/ui build-storybook",
+    "ingest:workbook": "tsx scripts/ingest-workbook.ts"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "tsx": "^4.7.1",
+    "xlsx": "^0.18.5"
+  }
+}

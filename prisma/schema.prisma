@@ -1,0 +1,37 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        Int        @id @default(autoincrement())
+  email     String     @unique
+  password  String
+  name      String?
+  scenarios Scenario[]
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+}
+
+model Scenario {
+  id          Int       @id @default(autoincrement())
+  name        String
+  description String?
+  parameters  Json
+  ownerId     Int
+  owner       User      @relation(fields: [ownerId], references: [id])
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+}
+
+model BtcPrice {
+  id        Int      @id @default(autoincrement())
+  priceUsd  Decimal  @db.Decimal(18, 8)
+  source    String
+  asOf      DateTime @unique
+  createdAt DateTime @default(now())
+}

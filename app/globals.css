@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-bg-base text-text-primary font-sans;
+  background-image: radial-gradient(circle at top left, rgba(247, 147, 26, 0.1), transparent 55%),
+    radial-gradient(circle at bottom right, rgba(45, 212, 191, 0.08), transparent 50%);
+  min-height: 100vh;
+}
+
+main {
+  min-height: 100vh;
+}
+
+.glass-card {
+  @apply bg-bg-surface backdrop-blur-xl border border-border-subtle rounded-3xl shadow-glass;
+}
+
+.section-heading {
+  @apply text-2xl md:text-3xl font-display font-semibold tracking-tight;
+}
+
+.text-subtle {
+  @apply text-text-secondary;
+}

@@ -1,0 +1,17 @@
+{
+  "lcp": {
+    "unit": "milliseconds",
+    "threshold": 2000,
+    "description": "Largest Contentful Paint must remain below 2 seconds at the 75th percentile."
+  },
+  "accessibility": {
+    "unit": "lighthouse-score",
+    "threshold": 0.95,
+    "description": "Accessibility Lighthouse category score must be at least 95%."
+  },
+  "apiLatency": {
+    "unit": "milliseconds",
+    "threshold": 400,
+    "description": "Scenario API p95 latency limit in production."
+  }
+}

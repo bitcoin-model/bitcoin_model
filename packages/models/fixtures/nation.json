@@ -1,0 +1,23 @@
+{
+  "indebted": [
+    { "id": "normie", "label": "Normie", "netWorth": -3.2288984167517865, "cagr": 0.04957332812285964, "btc": 0.0 },
+    { "id": "btc_10", "label": "BTC 10%", "netWorth": -2.1515451176778027, "cagr": 0.14191347426869294, "btc": 82.05128205128204 },
+    { "id": "btc_maxi", "label": "BTC Maxi", "netWorth": -0.01748605586525764, "cagr": 0.19602000161001487, "btc": 245.43752475955864 },
+    { "id": "double_maxi", "label": "Double Maxi", "netWorth": 8.784659932453032, "cagr": 0.27736853817902807, "btc": 1014.320879711923 },
+    { "id": "triple_maxi", "label": "Triple Maxi", "netWorth": 18.722791305577122, "cagr": 0.3147295785430766, "btc": 1868.8065977599676 }
+  ],
+  "wealthy": [
+    { "id": "normie", "label": "Normie", "netWorth": 6.118344099058233, "cagr": 0.14603892215136183, "btc": 0.0 },
+    { "id": "btc_10", "label": "BTC 10%", "netWorth": 15.064343446890245, "cagr": 0.19628175049707308, "btc": 0.7144137104395937 },
+    { "id": "btc_maxi", "label": "BTC Maxi", "netWorth": 26.688425226292914, "cagr": 0.22930812166554393, "btc": 1.6541630755592986 },
+    { "id": "double_maxi", "label": "Double Maxi", "netWorth": 41.11468864082936, "cagr": 0.2548667463077332, "btc": 2.8546667491957622 },
+    { "id": "triple_maxi", "label": "Triple Maxi", "netWorth": 57.73467546870294, "cagr": 0.2753181777445153, "btc": 4.210971509078911 }
+  ],
+  "united_states": [
+    { "id": "normie", "label": "Normie", "netWorth": -30.394802272894253, "cagr": 0.03194103194103182, "btc": 0.0 },
+    { "id": "btc_10", "label": "BTC 10%", "netWorth": -23.792021414621598, "cagr": 0.13033183254111314, "btc": 0.5 },
+    { "id": "btc_maxi", "label": "BTC Maxi", "netWorth": -17.23047820960631, "cagr": 0.16400256898794052, "btc": 1.0 },
+    { "id": "double_maxi", "label": "Double Maxi", "netWorth": 1.1870932648287535, "cagr": 0.2281078051623011, "btc": 3.2632025077939377 },
+    { "id": "triple_maxi", "label": "Triple Maxi", "netWorth": 29.79218234785951, "cagr": 0.2619524843353416, "btc": 5.842097111551877 }
+  ]
+}

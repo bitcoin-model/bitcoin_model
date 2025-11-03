@@ -1,0 +1,73 @@
+:root {
+  color-scheme: dark light;
+  font-family: var(--font-body), system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: var(--color-bg-base);
+  color: var(--color-text-primary);
+}
+
+:root {
+  /* Light theme defaults */
+  --color-bg-base: #F8FAFC;
+  --color-bg-surface: rgba(255, 255, 255, 0.9);
+  --color-surface-elevated: rgba(248, 250, 252, 0.65);
+  --color-primary: #F7931A;
+  --color-accent: #2DD4BF;
+  --color-warning: #F59E0B;
+  --color-danger: #F87171;
+  --color-success: #34D399;
+  --color-text-primary: #0B0E11;
+  --color-text-secondary: #475569;
+  --color-border: rgba(148, 163, 184, 0.35);
+  --color-muted: rgba(148, 163, 184, 0.2);
+  --shadow-glass: 0 20px 45px rgba(0,0,0,0.1);
+  --shadow-inner-glow: inset 0 0 0 1px rgba(255,255,255,0.05);
+  --blur-glass: 12px;
+  --transition-theme: 200ms;
+  --font-display: 'Space Grotesk';
+  --font-body: Inter;
+  --font-mono: 'JetBrains Mono';
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --gradient-hero: linear-gradient(135deg, rgba(247,147,26,0.85) 0%, rgba(45,212,191,0.65) 100%);
+  --motion-duration: 0.4s;
+  --motion-ease: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+[data-theme='dark'],
+.theme-dark {
+  --color-bg-base: #0B0E11;
+  --color-bg-surface: rgba(25, 32, 40, 0.85);
+  --color-surface-elevated: rgba(16, 23, 32, 0.88);
+  --color-primary: #F7931A;
+  --color-accent: #2DD4BF;
+  --color-warning: #F59E0B;
+  --color-danger: #F87171;
+  --color-success: #22D3EE;
+  --color-text-primary: #F8FAFC;
+  --color-text-secondary: #94A3B8;
+  --color-border: rgba(148, 163, 184, 0.2);
+  --color-muted: rgba(148, 163, 184, 0.1);
+  --shadow-glass: 0 20px 45px rgba(0,0,0,0.35);
+  --shadow-inner-glow: inset 0 0 0 1px rgba(255,255,255,0.08);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  background: var(--color-bg-base);
+  color: var(--color-text-primary);
+  min-height: 100vh;
+}
